@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--------------------------------------------Add Links start------------------------------------------------>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+  <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/Home.css">
+  
+  
+  <style>
+div#load_screen{
+	background: #000;
+	opacity: 1;
+	position: fixed;
+    z-index:10;
+	top: 0px;
+	width: 100%;
+	height: 1600px;
+}
+div#load_screen > div#loading{
+	color:#FFF;
+	width:120px;
+	height:24px;
+	margin: 300px auto;
+}
+</style>
+<script>
+window.addEventListener("load", function(){
+	var load_screen = document.getElementById("load_screen");
+	document.body.removeChild(load_screen);
+});
+</script>
+<!--------------------------------------------Add Links end------------------------------------------------>
+  <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+   <div class="col-md-12">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#myPage"><img  src="images/whitepanda.png" width="180" height="50" class="brandimage"></a>
+    </div>
+   
+   
+     <div class="collapse navbar-collapse" id="myNavbar">
+         <br>
+      <ul class="nav navbar-nav navbar-right">
+       
+   
+	<ul class="navbar-nav ml-auto nav-flex-icons"  >
+	<li "nav-item" >
+				<a class="nav-link" href="#">
+					<span class="badge badge-danger ml-2">499</span>
+					<img src="images/notification.png"  alt="" width="50" height="30">
+				</a> 
+    
+			</li>
+	    
+      <li class="nav-item ">
+        <a class="nav-link p-0" href="#">
+          <img src="images/user.png" class="rounded-circle z-depth-0" height="35">
+        </a>
+      </li>
+    </ul>
+ </ul>
+        
+    </div>
+   </div>      
+      <!-- Flat button with ripple -->
+  
+    </div> 
+   
+</nav>
+<!--------------------------------------------Body start------------------------------------------>
+
+
+
+
+
+<div id="load_screen"><div id="loading">loading document</div></div>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<div class="loaderBox">
+        <div class="loadAnim">
+            <div class="loadeAnim1"></div>
+            <div class="loadeAnim2"></div>
+            <div class="loadeAnim3"></div>
+        </div>
+    </div>
+
+          <h2>Content Store</h2>
+
+<!----------------------------------------Carousel  Add search------------------------------------------------------------->
+<div class="wrapper-one">
+<div class="team_member-one">
+     
+      
+      <p class="text-success">Got bulk order or similar orders ? Fill the order  brief in an excel sheet</p>
+	  <p>If you're wondering to place a order in large numbers, we a way customized just for that <br>
+	  Download the excelsheet and fill the order brief in the prescribed format and submit. In case you need any help, <u> we <br>
+	  are just a click away to assist you in placeing your order</u></p>
+	  <p><a class="btn btn-success btn-outline">Order via Excel Sheet</a></p>
+    </div>
+</div>
+<!-- /.carousel -->
+
+<!--------------------------------------------Add search end------------------------------------------>
+<!--------------------------------------------Add 3 card components start------------------------------------------>
+<div class="wrapper">
+  
+  <div class="team">
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+      <h3><b>Block/Article</b></h3>
+      <p class="role">from ₹500</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+	  
+	  <a class="btn btn-success btn-outline">Order now</a>
+    </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/logo2.png" alt="Team_image">
+      </div>
+      <h3>Newsletter/Email</h3>
+      <p class="role">from ₹1000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+	  <a class="btn btn-success btn-outline">Order now</a>
+	  </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+      <h3>Whitepaper</h3>
+      <p class="role">from ₹2000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+   </div>
+	
+	<div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+      <h3>e-book</h3>
+      <p class="role">from ₹1000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+	</div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+      <h3>Report/Guid</h3>
+      <p class="role">from ₹1000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+	  <a class="btn btn-success btn-outline">Order now</a>
+	  </div>
+    <div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+                                                            <h3>Product Description</h3>
+      <p class="role">from ₹500</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+	</div>
+	
+	<div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+             <h3>website content</h3>
+      <p class="role">from ₹1000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+	</div>
+	
+	<div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+             <h3>video script</h3>
+      <p class="role">from ₹1000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+	</div>
+	
+	<div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+             <h3>Company Profile/<br>brochue</h3>
+      <p class="role">from ₹2000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+	</div>
+	
+	<div class="team_member">
+      <div class="team_img">
+        <img src="images/logo1.png" alt="Team_image">
+      </div>
+             <h3>Press Release</h3>
+      <p class="role">from ₹2000</p>
+      <p>Typically 450-400 words, an e-book is perfect for your target audience ranging from prospective customers to user</p>
+		<a class="btn btn-success btn-outline">Order now</a>
+	</div>
+	
+  </div>
+</div>
+<!--------------------------------------------Add 3 card components end------------------------------------------>
+<!---------------------------------------Adding options of card component-------------------------------------->
+
+<!------------------------------------------------video play end----------------------------------------------------> 
+<!--------------------------------------------Footer start------------------------------------------>
+<footer class="mdl-mega-footer">
+ 
+
+    <hr class="footerhr">
+  <div class="mdl-mega-footer__bottom-section">
+           <div class="col-md-4">
+  
+</div>  
+<div class="col-md-4">
+
+<a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+
+
+
+</div> 
+
+  
+</div>
+      
+</footer>
+<!--------------------------------------------Footer end------------------------------------------>
+
+ 
+ 
+</body>
+<!--------------------------------------------Body end------------------------------------------>
+</html>
